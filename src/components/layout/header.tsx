@@ -32,7 +32,7 @@ export function Header() {
             <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="text-2xl font-serif font-bold tracking-tighter hover:opacity-80 transition-opacity">
-                    Kōhī.
+                    Bianchi.
                 </Link>
 
                 {/* Desktop Nav */}

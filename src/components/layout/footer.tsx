@@ -7,7 +7,7 @@ export function Footer() {
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-white/10 pb-12 mb-12">
                     <div className="md:col-span-1">
-                        <h3 className="text-3xl font-serif font-bold mb-4">Kōhī.</h3>
+                        <h3 className="text-3xl font-serif font-bold mb-4">Bianchi.</h3>
                         <p className="text-white/60 text-sm leading-relaxed max-w-xs">
                             Experience the ritual of exceptional coffee.
                             Sourced ethically, roasted with passion.
@@ -51,7 +51,7 @@ export function Footer() {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-white/40">
-                    <p>&copy; {new Date().getFullYear()} Kōhī Coffee Co. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Bianchi Coffee Co. All rights reserved.</p>
                     <div className="flex gap-6">
                         <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
                         <Link href="#" className="hover:text-white transition-colors">Terms of Service</Link>

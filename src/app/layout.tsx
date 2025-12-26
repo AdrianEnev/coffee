@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Artisan Coffee | Premium Origin Story",
+    title: "Bianchi Coffee | Premium Origin Story",
     description: "Experience the craft of single-origin coffee. Ethically sourced, expertly roasted.",
 };
 
