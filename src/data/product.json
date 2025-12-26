@@ -1,0 +1,31 @@
+{
+    "id": "misty-valley-yirgacheffe",
+    "name": "Misty Valley Yirgacheffe",
+    "variant": "Whole Bean / 12oz",
+    "price": 24.00,
+    "shortDescription": "A poetic expression of the Gedeo Zone.",
+    "longDescription": "This natural processed arabica offers a delicate, tea-like body with vibrant notes of jasmine, bergamot, and wild blueberry. A coffee that whispers rather than shouts, perfect for the slow ritual of the morning pour-over.",
+    "origin": {
+        "country": "Ethiopia",
+        "region": "Gedeo Zone",
+        "farm": "Halu Beriti Cooperative",
+        "altitude": "2100 - 2300 MASL",
+        "process": "Natural",
+        "harvest": "October - January"
+    },
+    "roastLevel": "Light-Medium",
+    "tastingNotes": [
+        "Jasmine",
+        "Blueberry",
+        "Earl Grey"
+    ],
+    "brewingParams": {
+        "temperature": "205°F / 96°C",
+        "ratio": "1:16",
+        "method": "Pour Over / V60"
+    },
+    "links": {
+        "amazon": "https://www.amazon.com",
+        "etsy": "https://www.etsy.com"
+    }
+}
