@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Product } from "@/types";
 import { ShoppingBag, ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface HeroProps {
     product: Product;
@@ -29,7 +30,7 @@ export function Hero({ product }: HeroProps) {
                         {product.origin.country} · {product.origin.process}
                     </span>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-primary leading-[1.1] mb-6">
-                        {product.name.split(" ").map((word, i) => (
+                        {product.title?.split(" ").map((word, i) => (
                             <span key={i} className="block">{word}</span>
                         ))}
                     </h1>
@@ -38,13 +39,14 @@ export function Hero({ product }: HeroProps) {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <Button size="lg" variant="premium" className="group">
-                            <ShoppingBag className="mr-2 h-5 w-5" />
-                            Buy on Amazon
+                        <Button size="lg" variant="premium" className="group" asChild>
+                            <Link href="/products">
+                                <ShoppingBag className="mr-2 h-5 w-5" />
+                                Shop All Coffee
+                            </Link>
                         </Button>
-                        <Button size="lg" variant="outline" className="group">
-                            Read the Story
-                            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                        <Button size="lg" variant="outline" className="group" onClick={() => window.open(product.links.amazon, '_blank')}>
+                            Buy on Amazon
                         </Button>
                     </div>
 

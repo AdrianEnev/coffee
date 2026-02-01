@@ -19,6 +19,7 @@ export interface ProductLinks {
 }
 
 export interface Product {
+    title?: string;
     id: string;
     name: string;
     variant: string;
@@ -30,4 +31,6 @@ export interface Product {
     tastingNotes: string[];
     brewingParams: BrewingParams;
     links: ProductLinks;
+    slug: string;
+    images?: string[];
 }

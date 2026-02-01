@@ -1,0 +1,283 @@
+[
+    {
+        "title": "Bianchi Coffee",
+        "id": "bianchi-origins-ethiopia-bio",
+        "slug": "bianchi-origins-ethiopia-bio",
+        "name": "Bianchi Origins Ethiopia BIO",
+        "variant": "Whole Bean / 250g",
+        "price": 12.50,
+        "shortDescription": "Organic single-origin arabica from the birthplace of coffee.",
+        "longDescription": "A refined organic arabica with a delicate floral character. This 100% Ethiopia BIO selection offers distinct notes of citrus and jasmine, characteristic of premium Yirgacheffe beans. Perfect for those who appreciate a tea-like, complex body.",
+        "origin": {
+            "country": "Ethiopia",
+            "region": "Sidamo / Yirgacheffe",
+            "farm": "Certified Organic Co-ops",
+            "altitude": "1800 - 2200 MASL",
+            "process": "Washed",
+            "harvest": "October - January"
+        },
+        "roastLevel": "Light-Medium",
+        "tastingNotes": [
+            "Floral",
+            "Citrus",
+            "Bergamot"
+        ],
+        "brewingParams": {
+            "temperature": "205°F / 96°C",
+            "ratio": "1:16",
+            "method": "Pour Over / V60"
+        },
+        "links": {
+            "amazon": "https://www.amazon.com",
+            "etsy": "https://www.etsy.com"
+        },
+        "images": [
+            "/images/coffee.jpeg"
+        ]
+    },
+    {
+        "id": "bianchi-adore-grand-espresso",
+        "slug": "bianchi-adore-grand-espresso",
+        "name": "Bianchi Adore Grand Espresso",
+        "variant": "Whole Bean / 1kg",
+        "price": 28.00,
+        "shortDescription": "A masterfully balanced blend for the perfect espresso.",
+        "longDescription": "The Adore Grand Espresso is designed for the professional barista experience at home. A harmonious blend of high-quality Arabica and washed Robusta, offering a velvety crema and persistent aftertaste.",
+        "origin": {
+            "country": "Multi-Origin",
+            "region": "Central America / Asia",
+            "farm": "Various",
+            "altitude": "Various",
+            "process": "Washed & Natural",
+            "harvest": "Year Round"
+        },
+        "roastLevel": "Medium-Dark",
+        "tastingNotes": [
+            "Dark Cocoa",
+            "Spices",
+            "Toasted Bread"
+        ],
+        "brewingParams": {
+            "temperature": "200°F / 93°C",
+            "ratio": "1:2",
+            "method": "Espresso Machine"
+        },
+        "links": {
+            "amazon": "https://www.amazon.com",
+            "etsy": "https://www.etsy.com"
+        },
+        "images": [
+            "/images/coffee.jpeg"
+        ]
+    },
+    {
+        "id": "bianchi-gold-1kg",
+        "slug": "bianchi-gold-1kg",
+        "name": "Bianchi Gold Selection",
+        "variant": "Whole Bean / 1kg",
+        "price": 26.00,
+        "shortDescription": "Golden crema and rich aroma.",
+        "longDescription": "Bianchi Gold is a classic choice for espresso lovers. It combines strength with a smooth aroma, delivering a cup with a thick, golden crema and a pleasant kick to start your day.",
+        "origin": {
+            "country": "Multi-Origin",
+            "region": "Global Blend",
+            "farm": "Partner Farms",
+            "altitude": "Various",
+            "process": "Natural",
+            "harvest": "Year Round"
+        },
+        "roastLevel": "Medium",
+        "tastingNotes": [
+            "Hazelnut",
+            "Chocolate",
+            "Caramel"
+        ],
+        "brewingParams": {
+            "temperature": "198°F / 92°C",
+            "ratio": "1:2.5",
+            "method": "Moka Pot / Espresso"
+        },
+        "links": {
+            "amazon": "https://www.amazon.com",
+            "etsy": "https://www.etsy.com"
+        },
+        "images": [
+            "/images/coffee.jpeg"
+        ]
+    },
+    {
+        "id": "bianchi-collezione-nero-fine-aroma",
+        "slug": "bianchi-collezione-nero-fine-aroma",
+        "name": "Collezione Nero Fine Aroma",
+        "variant": "Dolce Gusto® Compatible / 16 pcs",
+        "price": 6.50,
+        "shortDescription": "Elegant and aromatic single-serve espresso.",
+        "longDescription": "Part of the premium Collezione Nero, these capsules deliver a sophisticated espresso with fine acidity and delicate fruity notes. Compatible with Nescafé® Dolce Gusto® machines.",
+        "origin": {
+            "country": "Central America",
+            "region": "Highland",
+            "farm": "Smallholders",
+            "altitude": "1200+ MASL",
+            "process": "Washed",
+            "harvest": "Seasonal"
+        },
+        "roastLevel": "Medium",
+        "tastingNotes": [
+            "Fruits",
+            "Almond",
+            "Honey"
+        ],
+        "brewingParams": {
+            "temperature": "Standard",
+            "ratio": "Default",
+            "method": "Dolce Gusto® Machine"
+        },
+        "links": {
+            "amazon": "https://www.amazon.com",
+            "etsy": "https://www.etsy.com"
+        },
+        "images": [
+            "/images/coffee.jpeg"
+        ]
+    },
+    {
+        "id": "bianchi-caffe-arte-colombia",
+        "slug": "bianchi-caffe-arte-colombia",
+        "name": "Caffè Arte Colombia",
+        "variant": "Nespresso® Compatible / 10 pcs",
+        "price": 5.80,
+        "shortDescription": "100% Colombia Excelso Arabica.",
+        "longDescription": "A pure single-origin experience in a capsule. This Colombian Arabica is renowned for its full body, rich acidity, and intense fruity fragrance. Compatible with Nespresso® machines.",
+        "origin": {
+            "country": "Colombia",
+            "region": "Antioquia",
+            "farm": "Various",
+            "altitude": "1500 MASL",
+            "process": "Washed",
+            "harvest": "Main Crop"
+        },
+        "roastLevel": "Medium",
+        "tastingNotes": [
+            "Red Berries",
+            "Citrus",
+            "Sugar Cane"
+        ],
+        "brewingParams": {
+            "temperature": "Standard",
+            "ratio": "Lung or Espresso",
+            "method": "Nespresso® Machine"
+        },
+        "links": {
+            "amazon": "https://www.amazon.com",
+            "etsy": "https://www.etsy.com"
+        },
+        "images": [
+            "/images/coffee.jpeg"
+        ]
+    },
+    {
+        "id": "bianchi-origins-hazelnut",
+        "slug": "bianchi-origins-hazelnut",
+        "name": "Origins Hazelnut Aroma",
+        "variant": "E.S.E. Pods / 16 pcs",
+        "price": 6.20,
+        "shortDescription": "Rich espresso infused with toasted hazelnut.",
+        "longDescription": "For those who want something special. A high-quality espresso blend enriched with the warm, comforting aroma of roasted hazelnuts. Perfect for a cozy afternoon break.",
+        "origin": {
+            "country": "Brazil / Vietnam",
+            "region": "Various",
+            "farm": "Partner Cooperatives",
+            "altitude": "800 - 1200 MASL",
+            "process": "Natural",
+            "harvest": "Year Round"
+        },
+        "roastLevel": "Medium-Dark",
+        "tastingNotes": [
+            "Toasted Hazelnut",
+            "Vanilla",
+            "Cocoa"
+        ],
+        "brewingParams": {
+            "temperature": "195°F / 90°C",
+            "ratio": "Single Pod",
+            "method": "E.S.E. Machine"
+        },
+        "links": {
+            "amazon": "https://www.amazon.com",
+            "etsy": "https://www.etsy.com"
+        },
+        "images": [
+            "/images/coffee.jpeg"
+        ]
+    },
+    {
+        "id": "bianchi-adore-espresso-bar",
+        "slug": "bianchi-adore-espresso-bar",
+        "name": "Adore Espresso BAR",
+        "variant": "E.S.E. Pods / 16 pcs",
+        "price": 5.50,
+        "shortDescription": "Strong, classic Italian espresso style.",
+        "longDescription": "Adore Espresso BAR brings the energy of the Italian coffee bar to your home. It’s a strong, full-bodied blend designed to cut through milk or stand alone as a powerful shot.",
+        "origin": {
+            "country": "Vietnam / Uganda",
+            "region": "Various",
+            "farm": "Robusta Estates",
+            "altitude": "Low Altitude",
+            "process": "Natural",
+            "harvest": "Year Round"
+        },
+        "roastLevel": "Dark",
+        "tastingNotes": [
+            "Woody",
+            "Earth",
+            "Dark Chocolate"
+        ],
+        "brewingParams": {
+            "temperature": "200°F / 93°C",
+            "ratio": "Single Pod",
+            "method": "E.S.E. Machine"
+        },
+        "links": {
+            "amazon": "https://www.amazon.com",
+            "etsy": "https://www.etsy.com"
+        },
+        "images": [
+            "/images/coffee.jpeg"
+        ]
+    },
+    {
+        "id": "bianchi-classic-ground",
+        "slug": "bianchi-classic-ground",
+        "name": "Bianchi Classic",
+        "variant": "Ground / 250g",
+        "price": 8.00,
+        "shortDescription": "The traditional taste of good coffee.",
+        "longDescription": "Bianchi Classic is the reliable daily driver. A balanced blend of Arabica and Robusta that delivers a consistent, enjoyable cup every time. Pre-ground for your moka pot or drip machine.",
+        "origin": {
+            "country": "Multi-Origin",
+            "region": "Global",
+            "farm": "Various",
+            "altitude": "Various",
+            "process": "Various",
+            "harvest": "Year Round"
+        },
+        "roastLevel": "Medium",
+        "tastingNotes": [
+            "Nutty",
+            "Biscuity",
+            "Mild Spice"
+        ],
+        "brewingParams": {
+            "temperature": "195°F / 90°C",
+            "ratio": "1:15",
+            "method": "Drip / Moka Pot"
+        },
+        "links": {
+            "amazon": "https://www.amazon.com",
+            "etsy": "https://www.etsy.com"
+        },
+        "images": [
+            "/images/coffee.jpeg"
+        ]
+    }
+]

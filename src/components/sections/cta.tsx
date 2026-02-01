@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Product } from "@/types";
 import { motion } from "framer-motion";
 import { ShoppingBag } from "lucide-react";
+import Link from "next/link";
 
 interface CTAProps {
     product: Product;
@@ -30,11 +31,14 @@ export function CTA({ product }: CTAProps) {
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                        <Button variant="premium" size="lg" className="h-16 px-12 text-lg w-full sm:w-auto">
-                            <ShoppingBag className="mr-2" /> Buy on Amazon
+                        <Button variant="premium" size="lg" className="h-16 px-12 text-lg w-full sm:w-auto" asChild>
+                            <Link href={`/products`}>
+                                <ShoppingBag className="mr-2" /> 
+                                Buy Now
+                            </Link>
                         </Button>
-                        <Button variant="outline" size="lg" className="h-16 px-12 text-lg w-full sm:w-auto">
-                            Buy on Etsy
+                        <Button variant="outline" size="lg" className="h-16 px-12 text-lg w-full sm:w-auto" onClick={() => window.open(product.links.amazon, '_blank')}>
+                            Buy on Amazon
                         </Button>
                     </div>
                 </motion.div>

@@ -6,19 +6,22 @@ import { Trust } from "@/components/sections/trust";
 import { CTA } from "@/components/sections/cta";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
-import productData from "@/data/product.json";
+import { getAllProducts } from "@/lib/products";
 
 export default function Home() {
+    const products = getAllProducts();
+    const featuredProduct = products[0];
+
     return (
         <main className="min-h-screen bg-background text-foreground overflow-x-hidden">
             <Header />
-            <Hero product={productData} />
+            <Hero product={featuredProduct} />
             <Philosophy />
             {/* Spacer or visual break could go here */}
-            <Story product={productData} />
-            <Details product={productData} />
+            <Story product={featuredProduct} />
+            <Details product={featuredProduct} />
             <Trust />
-            <CTA product={productData} />
+            <CTA product={featuredProduct} />
             <Footer />
         </main>
     );
