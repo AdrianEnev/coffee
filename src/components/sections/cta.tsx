@@ -32,7 +32,7 @@ export function CTA({ product }: CTAProps) {
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                         <Button variant="premium" size="lg" className="h-16 px-12 text-lg w-full sm:w-auto" asChild>
-                            <Link href={`/products`}>
+                            <Link href={``}>
                                 <ShoppingBag className="mr-2" /> 
                                 Buy Now
                             </Link>
