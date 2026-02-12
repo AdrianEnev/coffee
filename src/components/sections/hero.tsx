@@ -40,7 +40,7 @@ export function Hero({ product }: HeroProps) {
 
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Button size="lg" variant="premium" className="group" asChild>
-                            <Link href="/products">
+                            <Link href="">
                                 <ShoppingBag className="mr-2 h-5 w-5" />
                                 Shop All Coffee
                             </Link>
